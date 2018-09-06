@@ -48,7 +48,7 @@ public class FindFileRecuriveTestByRoger {
 				}
 			}
 		}
-		return null; // 若這層目錄下檔銘都比對不到檔案，return null
+		return null; // 若這層目錄下檔名都比對不到檔案，return null
 	}
 
 	public static List<File> findAllFile(String pathStr) {
